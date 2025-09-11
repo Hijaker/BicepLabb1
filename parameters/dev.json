@@ -1,0 +1,42 @@
+{  
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",  
+    "parameters": 
+        {    
+            "pName" : {
+                "value": "andreas"
+            },
+            "pLocation" : {
+                "value": "swedencentral"
+            },
+            "pEnviroment" : {
+                "value": "dev"
+            },
+            "pSkuName":{
+                "value": "B1"
+            },
+            "pCapacity":{
+                "value": 1
+            },
+
+
+            "pHttpsOnly":{
+                "value": true
+            },
+
+            "pKind":{
+                "value": "StorageV2"
+            },
+            "pStorageSku":{
+                "value": "Standard_LRS"
+            },
+
+            "pTagOwner" : {
+                "value": "Andreas"
+            },
+            "pTagCostCenterDepartment":{
+                "value": "Finance"
+            }
+            
+        }
+}
