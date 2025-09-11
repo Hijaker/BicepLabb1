@@ -1,22 +1,8 @@
-# Azure IaC with Bicep
+# IaC setup in Azure using Bicep
 
-This repository contains Infrastructure as Code (IaC) definitions using [Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview) for deploying resources into Microsoft Azure.
+This repository contains Infrastructure as Code (IaC) definitions using Bicep for deploying resources into Microsoft Azure.
 
-The setup includes modules for App Service, Web App, Storage Account, and Resource Group (not currently used in the main deployment).
-
----
-
-## Table of Contents
-
-- [Repository Structure](#repository-structure)
-- [Deployment Instructions](#deployment-instructions)
-  - [Deploy to Development](#deploy-to-development)
-  - [Deploy to Test](#deploy-to-test)
-  - [Deploy to Production](#deploy-to-production)
-  - [Deploy to All Three Envorments](#deploy-to-all-three-envorments)
-  - [Outputs](#outputs)
-- [Notes](#notes)
-
+The setup includes modules for App Service, Web App, Storage Account, and Resource Group (Resource Group is not currently used in the main deployment).
 
 ---
 
